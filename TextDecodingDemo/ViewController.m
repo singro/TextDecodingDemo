@@ -18,7 +18,7 @@
     [super viewDidLoad];
     
     
-    NSString *boundlePath = [[NSBundle mainBundle] pathForResource:@"Untitled" ofType:@"txt"];
+    NSString *boundlePath = [[NSBundle mainBundle] pathForResource:@"1001bytes" ofType:@"txt"];
     
     NSData *data = [NSData dataWithContentsOfFile:boundlePath];
     NSStringEncoding encoding = CFStringConvertEncodingToNSStringEncoding(kCFStringEncodingGB_18030_2000);
